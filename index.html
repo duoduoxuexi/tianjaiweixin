@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>添加微信好友</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 50px;
+        }
+        a {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #07C160;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 16px;
+            margin-bottom: 20px; /* 增加按钮与二维码之间的间距 */
+        }
+        a:hover {
+            background-color: #06AD56;
+        }
+        img {
+            width: 150px;
+            height: 150px;
+        }
+        .backup {
+            margin-top: 20px;
+            font-size: 14px;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <h1>添加微信好友</h1>
+
+    <!-- 直接跳转微信 -->
+    <a href="weixin://contacts/profile/y2196232994">点击跳转微信</a>
+
+    <!-- 二维码 -->
+    <img src="http://8.130.95.9:9999/pic/home/bl/img/U1/1微信图片_20250326135814.jpg" alt="微信二维码">
+    <div class="backup">
+        扫描二维码添加好友
+    </div>
+
+    <!-- 手动添加 -->
+    <div class="backup">
+        如果以上方法均不可用，请手动添加微信号：<strong>y2196232994</strong>
+    </div>
+</body>
+</html>
